@@ -3,22 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "start": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@storybook/react": "^3.4.7",
-    "@storybook/addon-actions": "^3.4.7",
-    "@storybook/addon-links": "^3.4.7"
+    "vite": "^7.0.0",
+    "@vitejs/plugin-react": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
   }
 }
