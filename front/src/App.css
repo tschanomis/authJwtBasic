@@ -1,1 +1,152 @@
-.App{max-width:1440px;margin:auto;padding:0 6.5%;min-height:100svh;display:flex;flex-direction:column}.site-header{height:112px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #dce1d7}.brand{text-decoration:none;font-size:25px;font-weight:750;letter-spacing:-1px;display:flex;align-items:center;gap:11px}.brand-mark{display:grid;place-items:center;border-radius:12px;width:38px;height:38px;background:#173e34;color:#d2f0b2;font-size:27px;padding-bottom:5px}.brand-dot{color:#89a782;margin-left:-6px}.demo-tag{font-size:12px;color:#5e7167;display:flex;align-items:center;gap:8px}.demo-tag span{height:6px;width:6px;background:#71996e;border-radius:50%}.main-layout{flex:1;display:grid;grid-template-columns:1.1fr 1fr;gap:8%;align-items:center;padding:75px 0 90px}.eyebrow{font-size:10px;font-weight:750;letter-spacing:2px;color:#667d6b}h1{font-size:clamp(48px,5.3vw,76px);line-height:1.07;letter-spacing:-4px;font-weight:550;margin:27px 0}h1 span{color:#7a9471}.intro-copy{font-size:15px;line-height:1.8;color:#68766d}.intro-note{display:flex;gap:13px;align-items:center;margin-top:48px}.note-symbol{width:40px;height:40px;border:1px solid #d8dfd0;border-radius:50%;display:grid;place-items:center;font-size:21px}.intro-note strong{font-size:12px;font-weight:650}.intro-note p{margin:5px 0 0;color:#7c887d;font-size:11px}.site-footer{padding:25px 0;border-top:1px solid #dce1d7;display:flex;justify-content:space-between;gap:15px;font-size:10px;color:#7a877b}@media(max-width:800px){.App{padding:0 6%}.site-header{height:85px}.main-layout{grid-template-columns:1fr;gap:38px;padding:45px 0}.intro h1{font-size:52px;letter-spacing:-2.8px}.intro h1 br:nth-of-type(2){display:none}.intro-note{display:none}.intro-copy{font-size:14px}.site-footer{flex-direction:column;gap:8px}.demo-tag{font-size:10px}}@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+.App {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 6.5%;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+.site-header {
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dce1d7;
+}
+.brand {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 750;
+  letter-spacing: -1px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.brand-mark {
+  display: grid;
+  place-items: center;
+  border-radius: 12px;
+  width: 38px;
+  height: 38px;
+  background: #173e34;
+  color: #d2f0b2;
+  font-size: 27px;
+  padding-bottom: 5px;
+}
+.brand-dot {
+  color: #89a782;
+  margin-left: -6px;
+}
+.demo-tag {
+  font-size: 12px;
+  color: #5e7167;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.demo-tag span {
+  height: 6px;
+  width: 6px;
+  background: #71996e;
+  border-radius: 50%;
+}
+.main-layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 8%;
+  align-items: center;
+  padding: 75px 0 90px;
+}
+.eyebrow {
+  font-size: 10px;
+  font-weight: 750;
+  letter-spacing: 2px;
+  color: #667d6b;
+}
+h1 {
+  font-size: clamp(48px, 5.3vw, 76px);
+  line-height: 1.07;
+  letter-spacing: -4px;
+  font-weight: 550;
+  margin: 27px 0;
+}
+h1 span {
+  color: #7a9471;
+}
+.intro-copy {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #68766d;
+}
+.intro-note {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  margin-top: 48px;
+}
+.note-symbol {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #d8dfd0;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 21px;
+}
+.intro-note strong {
+  font-size: 12px;
+  font-weight: 650;
+}
+.intro-note p {
+  margin: 5px 0 0;
+  color: #7c887d;
+  font-size: 11px;
+}
+.site-footer {
+  padding: 25px 0;
+  border-top: 1px solid #dce1d7;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 10px;
+  color: #7a877b;
+}
+@media (max-width: 800px) {
+  .App {
+    padding: 0 6%;
+  }
+  .site-header {
+    height: 85px;
+  }
+  .main-layout {
+    grid-template-columns: 1fr;
+    gap: 38px;
+    padding: 45px 0;
+  }
+  .intro h1 {
+    font-size: 52px;
+    letter-spacing: -2.8px;
+  }
+  .intro h1 br:nth-of-type(2) {
+    display: none;
+  }
+  .intro-note {
+    display: none;
+  }
+  .intro-copy {
+    font-size: 14px;
+  }
+  .site-footer {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .demo-tag {
+    font-size: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
